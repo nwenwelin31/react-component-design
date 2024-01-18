@@ -1,16 +1,23 @@
 
-  .card {
-    width: 300px;
-    height: 100px;
-    padding: 15px;
-    background-color: coral;
-    box-shadow: 10px 10px 5px lightblue;
-  }
-  .column {
+ .headDiv{
+  display: flex;
+  align-items: center;
+ }
+ 
+ .cardText {
+    margin: 10px 30px 10px 30px;
     float: left;
-    width: 25%;
-    padding: 0 10px;
+    padding: 15px;
+    width: 43%;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  * {
-    box-sizing: border-box;
+  .cardImg {
+    margin: 10px 30px 10px 30px;
+    float: left;
+    padding: 15px;
+    width: 43%;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
