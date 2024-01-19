@@ -15,7 +15,7 @@ export default function footer() {
         </i>
       </div>
       <div className='divfooter'>
-        <p><b>About thea company</b></p>
+        <p><b>About the company</b></p>
         <small>Most gardens contain a mix of different plants, including perennials, annuals, shrubs and trees.</small>
       </div>
     </div>
