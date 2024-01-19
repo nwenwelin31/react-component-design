@@ -9,7 +9,7 @@ export default function footer() {
     <div className='footer'>
       <div className='divfooter'>
         <i>
-        <p><IoLocationSharp /> <small><b>5th Baho Road Yangon</b></small></p>
+        <p><IoLocationSharp /> <small><b>5th Baho Road, Yangon.</b></small></p>
         <p><FaPhoneFlip />  <small><b>09888777666</b></small></p>
         <p><MdEmail />  <small><b>support@company.com</b></small></p>
         </i>
