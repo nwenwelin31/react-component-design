@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 4%;
+    display: flex;
+    border-top: 1px solid #0e0e0e;
+    /* background-color: rgb(72, 209, 72); */
+}
+.divfooter{
+    margin-top: 2%;
+    float: left;
+    text-align: left;
+    width: 50%;
+}

@@ -1,21 +1,23 @@
 import React from 'react';
 import './home.css';
+import plant from './home.webp';
 
 export default function home() {
     return (
-        <div className='container col-md-6'>
             <div className='headDiv'>
 
                 <div className="cardText">
-                    Text
+                    <p>Plants are vital to life on Earth. They provide food for people and animals.
+                         They also make the oxygen that other living things breathe.
+                          Plants produce the oxygen as part of the process of photosynthesis.
+                          They provide food for people and animals.</p>
                 </div>
 
                 <div className="cardImg">
-                   Image
+                   <img src={plant} alt=''></img>
                 </div>
 
             </div>
-        </div>
 
 
     )
