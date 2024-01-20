@@ -1,28 +1,19 @@
 .service{
-    margin-top: 10%;
-}
-.serviceDiv{
-    margin-top: 5%;
+    /* margin-top: 8%;
+    margin-bottom: 3%; */
+    margin: 8% 0 5% 0;
     display: flex;
     align-items: center;
-    
+    /* background-color: rgb(72, 209, 72); */
 }
-/* .serviceCard{
-    margin: 2%;
-} */
-.serviceImg{
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+.cardService img{
     width: 80%;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
-h3{
+.textService{
+    padding-right: 20%;
     text-align: center;
+    justify-content: left;
 }
-.serviceCard button{
-    margin-left: 25%;
-}
-
-.serviceCard p{
-    margin: 4%;
-    text-align: left;
-}
-

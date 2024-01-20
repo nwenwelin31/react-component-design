@@ -4,7 +4,8 @@ import plant from './home.webp';
 
 export default function home() {
     return (
-            <div className='headDiv'>
+        // Home Section
+            <div id='home' className='headDiv'>
 
                 <div className="cardText">
                     <p>Plants are vital to life on Earth. They provide food for people and animals.

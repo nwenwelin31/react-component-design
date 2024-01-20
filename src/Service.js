@@ -1,33 +1,19 @@
 import React from 'react';
 import './service.css';
-import service1 from './s1.jpg';
-import service2 from './s2.avif';
-import Service3 from './s4.jpg';
+import plantAbout from './blander.png';
 
 export default function Service() {
-    return (
-        <div className='service'>
-             <h3>Plant Categories</h3>
-            <div className='serviceDiv'>
-                <div className="serviceCard">
-                    <img src={service1} className='serviceImg'></img>
-                    <p> They are labeled as producers. They serve as food to other organisms, including animals. Animals, in contrast, are heterotrophs and they need</p>
-                    <button className='btn btn-dark'>Shop Now</button>
-                </div>
-
-                <div className="serviceCard">
-                    <img src={service2} alt='' className='serviceImg'></img>
-                    <p> They are labeled as producers. They serve as food to other organisms, including animals. Animals, in contrast, are heterotrophs and they need</p>
-                    <button className='btn btn-dark'>Shop Now</button>
-                </div>
-                <div className="serviceCard">
-
-                    <img src={Service3} alt='' className='serviceImg'></img>
-                    <p> They are labeled as producers. They serve as food to other organisms, including animals. Animals, in contrast, are heterotrophs and they need</p>
-                    <button className='btn btn-dark'>Shop Now</button>                
-                </div>
-                
-            </div>
-        </div>
-    )
+  return (
+    // Service Section
+    <div id='service' className='service'>
+      <div className='cardService'>
+        <img src={plantAbout}></img>
+      </div>
+      <div className='textService'>
+        <h4><b>Full Plants Care Services</b></h4>
+        <small>Plants clean air and filter water, bacteria decompose wastes, bees</small>
+        <p><b><a><u>Learn more</u></a></b></p>
+      </div>
+    </div>
+  )
 }

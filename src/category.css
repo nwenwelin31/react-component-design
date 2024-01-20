@@ -1,0 +1,37 @@
+.category{
+    margin-top: 10%;
+}
+.categoryDiv{
+    margin-top: 5%;
+    display: flex;
+    
+}
+
+.categoryDiv :nth-child(2){
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.categoryCard{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.categoryImg{
+
+    width: 100%;
+}
+h3{
+    text-align: center;
+}
+.categoryCard button{
+    margin-left: 33%;
+    margin-bottom: 3%;
+}
+
+.categoryCard p{
+    margin: 4%;
+    text-align: center;
+}
+

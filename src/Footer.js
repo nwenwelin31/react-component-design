@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function footer() {
   return (
+    // footer section
     <div className='footer'>
       <div className='divfooter'>
         <i>

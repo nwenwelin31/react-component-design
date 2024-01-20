@@ -1,28 +1,7 @@
-ul {
+ nav {
     list-style-type: none;
     overflow: hidden;
     border-bottom: 1px solid #111111;
 
-  }
-  .li:first-child{
-    width: 60%;
-  }
+  } 
   
-  .li {
-    float: left;
-    width: 13%;
-  }
-  
-  .li a {
-    margin: 1%;
-    display: block;
-    color: #111111;
-    text-decoration: none;
-    font-size: large;
-    font-weight: normal;
-  }
- 
-  img{
-    width: 10%;
-    height: 20%;
-  }
