@@ -1,10 +1,10 @@
 import './App.css';
-import './home.css';
-import Header from './Header';
-import Home from './Home';
-import Footer from './Footer';
-import Category from './Category';
-import Service from './Service';
+import './component/home.css';
+import Header from './component/Header';
+import Home from './component/Home';
+import Footer from './component/Footer';
+import Category from './component/Category';
+import Service from './component/Service';
 import { MdCategory } from 'react-icons/md';
 
 function App() {
